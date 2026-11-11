@@ -1,8 +1,8 @@
 import React from 'react';
 import { Image, Pressable, StyleSheet, Text, View } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
-import { colors, fonts, radius, scale, shadow } from '../theme';
-import { Tour } from '../types';
+import { colors, fonts, radius, scale, shadow } from '../Theme';
+import { Tour } from '../types/types';
 import FavoriteButton from './FavoriteButton';
 import CircleButton from './CircleButton';
 import Rating from './Rating';
